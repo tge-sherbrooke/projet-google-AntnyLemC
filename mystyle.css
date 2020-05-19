@@ -81,7 +81,7 @@ input[type=submit] {
 p {
   position: relative;
   font-size:14px;
-  color:black;
+  color:#000000;
   font-family: "Arial", "Sans-Serif";
 }
 
