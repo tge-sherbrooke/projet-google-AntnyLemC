@@ -1,6 +1,7 @@
 
 .topnav {
     background-color: white;
+    position: relative;
     overflow: hidden;
     margin-top: 15px;
   }
@@ -30,3 +31,61 @@
     bottom: 3px;
     
   }
+.botnav {
+  background-color: #F2F2F2;
+  overflow: hidden;
+  position: relative;
+  bottom: -610px;
+  margin-bottom: 0px;
+  }
+  bottom {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Arial", "Sans-Serif";
+  }
+  bottom.bottomLeft {
+    float: left;
+    color: black;
+    padding-left: 15px;
+  }
+  bottom.bottomRight {
+    float: right;
+    color: black;
+    padding-right: 15px;
+  }
+  
+center {
+  position: relative;
+  top: 158px;
+}
+img {
+  padding-bottom: 25px;
+  position: relative;
+}
+input[type=text] {
+  padding: 13px ;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border-color: rgb(223, 225, 229);
+  width: 550px;
+}
+input[type=submit] {
+  margin-top: 35px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-color: rgb(223, 225, 229);
+  width: 125px;
+}
+p {
+  position: relative;
+  font-size:14px;
+  color:black;
+  font-family: "Arial", "Sans-Serif";
+}
+
+mark.blue {
+  color:#0000A0;
+  background: none;
+}
