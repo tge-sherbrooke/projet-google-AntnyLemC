@@ -31,28 +31,7 @@
     bottom: 3px;
     
   }
-.botnav {
-  background-color: #F2F2F2;
-  overflow: hidden;
-  position: relative;
-  bottom: -610px;
-  margin-bottom: 0px;
-  }
-  bottom {
-    text-align: center;
-    font-size: 15px;
-    font-family: "Arial", "Sans-Serif";
-  }
-  bottom.bottomLeft {
-    float: left;
-    color: black;
-    padding-left: 15px;
-  }
-  bottom.bottomRight {
-    float: right;
-    color: black;
-    padding-right: 15px;
-  }
+  
   
 center {
   position: relative;
@@ -88,4 +67,29 @@ p {
 mark.blue {
   color:#0000A0;
   background: none;
+}
+.botnav {
+  background-color: rgb(236, 235, 235);
+  position: relative;
+  bottom:-585px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+bottom {
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Arial", "Sans-Serif";
+}
+bottom.bottomLeft {
+  float: left;
+  left: 0%;
+  color: black;
+  padding-left: 15px;
+}
+bottom.bottomRight {
+  float: right;
+  color: black;
+  padding-right: 15px;
 }
